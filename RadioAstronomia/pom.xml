@@ -30,12 +30,18 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sourceforge.parallelcolt/parallelcolt -->
+		<dependency>
+    		<groupId>net.sourceforge.parallelcolt</groupId>
+    		<artifactId>parallelcolt</artifactId>
+    		<version>0.10.0</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
