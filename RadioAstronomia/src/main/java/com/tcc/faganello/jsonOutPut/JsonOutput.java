@@ -1,8 +1,5 @@
 package com.tcc.faganello.jsonOutPut;
 
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
 import java.util.Iterator;
 import java.util.List;
 
@@ -11,7 +8,6 @@ import com.craam.wellington.interfaces.IOutput;
 import com.craam.wellington.isrcsr.ISRCSR;
 import com.craam.wellington.isrcsr.Source;
 import com.craam.wellington.isrcsr.ISRCSR.Frequency;
-import com.craam.wellington.isrcsr.io.CSVOutput;
 import com.craam.wellington.isrcsr.io.InputData;
 import com.craam.wellington.statics.Constants;
 
