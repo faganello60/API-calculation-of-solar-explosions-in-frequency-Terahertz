@@ -14,29 +14,38 @@ To run the server, execute the following `java -jar target/mackenzie-bookstore-s
 ### Request
 
 #### Register Announce
-###### Request: ``` POST /announces?user_code=<code>&isbn=<isbn>[&description=<description>] ```
+###### Request: ``` GET /isrcsr ex=<Double>&ntotal=<Double>&bmagco=<Double>&bmagex=<Double>&angle=<Double>&scsize=<Double>&scheight=<Double>&sesize=<Double>&seheight=<Double>&j1=<Double>&j2=<Double>&etr=<Double>&npco=<Double>&npex=<Double>&ecsr=<Double>&xnisrex=<Double>&xncsr=<Double>&tb=<Double>&kf=<Double>```
 
 ###### Response example: 
 ```json
 {
-  "annoucePK": {
-    "code": 31409695,
-    "isbn": "9788588134119"
+  "isr": {
+    "frequency": [Int],
+    "flux": "[Int]"
   },
-  "sold": false,
-  "description": "Livro muito bom",
-  "book": {
-    "isbn": "9788588134119",
-    "name": "Memórias do povo alemão no Rio Grande do Sul",
-    "description": "Memórias do povo alemão no Rio Grande do Sul",
-    "publisher": {
-      "idPublisher": 3,
-      "name": "Felipe Kuhn Braun"
-    },
-    "author": {
-      "idAuthor": 3,
-      "name": "Desconhecido"
-    }
-  }
+  "csr": {
+    "frequency": [Int],
+    "flux": "[Int]"
+  },
+  "total": {
+    "frequency": [Int],
+    "flux": "[Int]"
+  },
+  "high": {
+    "frequency": [Int],
+    "flux": "[Int]"
+  },
+  "low": {
+    "frequency": [Int],
+    "flux": "[Int]"
+  },
+  "compact": {
+    "frequency": [Int],
+    "flux": "[Int]"
+  },
+  "extended": {
+    "frequency": [Int],
+    "flux": "[Int]"
+  },
 } 
 ```
