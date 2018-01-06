@@ -6,7 +6,7 @@
 ## How to build and run
 Go to project root folder and run `mvn clean install`.
 An `.jar` file will be created at `target/` folder.
-To run the server, execute the following `java -jar target/mackenzie-bookstore-server-0.0.1-SNAPSHOT.jar`
+To run the server, execute the following `java -jar target/RadioAstronomia-0.0.1-SNAPSHOT.jar`
 (make sure java installation is set in your `$PATH` or `%PATH%` (for Unix-like and Windows systems respectively)
 
 ## Avaiable Resources
