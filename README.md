@@ -13,7 +13,6 @@ To run the server, execute the following `java -jar target/RadioAstronomia-0.0.1
 
 ### Request
 
-#### Register Announce
 ###### Request: ``` GET /isrcsr ex=<Double>&ntotal=<Double>&bmagco=<Double>&bmagex=<Double>&angle=<Double>&scsize=<Double>&scheight=<Double>&sesize=<Double>&seheight=<Double>&j1=<Double>&j2=<Double>&etr=<Double>&npco=<Double>&npex=<Double>&ecsr=<Double>&xnisrex=<Double>&xncsr=<Double>&tb=<Double>&kf=<Double>```
 
 ###### Response example: 
